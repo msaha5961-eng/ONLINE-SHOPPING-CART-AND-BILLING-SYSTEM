@@ -51,6 +51,76 @@ This project demonstrates the implementation of basic programming concepts such 
 
 ---
 
+## 📸 Sample Output
+
+```text
+====== ONLINE SHOPPING CART ======
+
+Enter Customer Name: Moumita
+
+1. View Products
+2. Add Product to Cart
+3. View Cart
+4. Generate Bill
+5. Exit
+
+Enter your choice: 1
+
+========== PRODUCT CATALOG ==========
+ID   Product         Price      Stock
+---------------------------------------------
+1    Rice            ₹60        10
+2    Sugar           ₹50        8
+3    Milk            ₹35        15
+4    Bread           ₹40        10
+5    Coffee          ₹180       6
+6    Biscuits        ₹30        20
+---------------------------------------------
+
+Enter your choice: 2
+
+Enter Product ID: 1
+Enter Quantity: 2
+
+Rice added to cart successfully!
+
+Enter your choice: 2
+
+Enter Product ID: 3
+Enter Quantity: 1
+
+Milk added to cart successfully!
+
+Enter your choice: 3
+
+========== YOUR CART ==========
+Product         Price      Qty      Total
+--------------------------------------------------
+Rice            ₹60        2        ₹120
+Milk            ₹35        1        ₹35
+--------------------------------------------------
+Subtotal: ₹155
+
+Enter your choice: 4
+
+========== SHOPPING BILL ==========
+Customer : Moumita
+
+----------------------------------------
+Product         Qty       Amount
+----------------------------------------
+Rice            2         ₹120
+Milk            1         ₹35
+----------------------------------------
+Subtotal      : ₹155.00
+GST (5%)      : ₹7.75
+Grand Total   : ₹162.75
+========================================
+
+Bill saved successfully in bill.txt
+
+Thank you for shopping!
+```
 
 ## Limitations
 - No graphical user interface (GUI)
